@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: auto;
+    height: auto;
+    background-color: hsl(0, 0%, 98%);
+    margin: 50px 100px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+   
+}
+
+.top{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+
+}
+
+.top h1{
+    font-size: 2rem;
+    color: hsl(234, 12%, 34%);
+}
+
+.top h3{
+    margin: 10px 400px;
+    font-weight: 400;
+    font-size: 13px;
+    color: hsl(229, 6%, 66%);
+
+}
+
+.reliable{
+    font-weight: 200;
+}
+
+.top h1, .top h3{
+    text-align: center;
+}
+
+.bottom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.row-1{
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.container-1, .container-2, .container-3{
+    height: auto;
+    width: 30%;
+}
+
+
+
+.container-2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 40px 50px;
+}
+
+.box-1, .box-2, .box-3, .box-4{
+    width:  340px;
+    height: 250px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 2px 2px 20px hsl(229, 6%, 66%);
+}
+
+.container-1, .container-3{
+    display: flex;
+    align-items: center;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    padding: 35px;
+    margin-bottom: 0px;
+}
+
+.info p{
+    font-weight: 600;
+    font-size: 18px;
+    color: hsl(234, 12%, 34%);
+}
+
+.info span{
+    font-weight: 400;
+    font-style: bold;
+    font-size: 14px;
+    margin: 10px 0px;
+    color: hsl(229, 6%, 66%);
+    width: 100%;
+    word-wrap:break-word;
+}
+
+.boximage{
+    width: 100%;
+    height: 100%;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+.box-1{
+    border-top: 5px solid hsl(180, 62%, 55%);
+}
+.box-2{
+    border-top: 5px solid hsl(0, 78%, 62%);
+    margin-bottom: 25px;
+}
+.box-3{
+    border-top: 5px solid hsl(34, 97%, 64%);
+    margin-top: 25px;
+}
+.box-4{
+    border-top: 5px solid hsl(212, 86%, 64%);
+}
+
+img{
+    position: relative;
+}
+
+@media(max-width: 1125px){
+    .row-1{
+        flex-direction: column;
+    }
+    .container-1, .container-3{
+        width: auto;
+        justify-content: center;
+    }
+    body{
+        margin: 50px 50px;
+    }
+
+    .top h1{
+        font-size: 20px;
+    }
+    
+}
+@media(max-width: 1013px){
+    .top h3{
+        margin: 10px auto;
+    }
+}
+
+
+
+
+
+
+
+
+
